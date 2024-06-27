@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="priority" label="Priority" language="en" table="incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <help/>
+            <hint>Sequence in which an incident needs to be resolved</hint>
+            <label>Priority</label>
+            <language>en</language>
+            <name>incident</name>
+            <plural>Priorities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-11-30 15:59:56</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Priority</sys_name>
+            <sys_package display_value="Incident Management Best Practice - Jakarta" source="com.snc.best_practice.incident.jakarta">f12b70fd7df1311076daf29f52070d31</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</sys_scope>
+            <sys_update_name>sys_documentation_incident_priority_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-27 08:56:02</sys_updated_on>
+            <url>/api/now/v1/context_doc_url/CSHelp:Prioritize-Incidents</url>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</claim_owner_scope>
+        <claim_timestamp>19058e8ad860000002</claim_timestamp>
+        <metadata_update_name>sys_documentation_incident_priority_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>GlobalTest</previous_claim_name>
+        <previous_claim_scope>e081ca6193030210994335018bba10ef</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 08:56:02</sys_created_on>
+        <sys_id>1c4206e593030210994335018bba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:02</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</claim_owner_scope>
+        <claim_timestamp>19058e8ad860000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_incident_priority_en</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.best_practice.incident.jakarta</previous_claim_name>
+        <previous_claim_scope>com.snc.best_practice.incident.j</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 08:56:02</sys_created_on>
+        <sys_id>dc4206e593030210994335018bba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:02</sys_updated_on>
+    </sys_claim>
+</record_update>

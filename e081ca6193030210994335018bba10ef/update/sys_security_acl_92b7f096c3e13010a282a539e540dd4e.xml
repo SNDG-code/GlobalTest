@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="incident.*">incident_stateNOT IN7,8^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for all fields in incident, for users with role sn_incident_write, and if the ACL condition (incident_stateNOT IN7,8^EQ) evaluates to true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>incident.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-26 16:56:39</sys_created_on>
+        <sys_id>92b7f096c3e13010a282a539e540dd4e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>incident.*</sys_name>
+        <sys_package display_value="ITSM Roles - Incident Management (do not activate, see plugin description)" source="com.snc.itsm.roles.incident_management">52eb7c357d35311076daf29f52070df7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</sys_scope>
+        <sys_update_name>sys_security_acl_92b7f096c3e13010a282a539e540dd4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</claim_owner_scope>
+        <claim_timestamp>19058e8c5130000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_92b7f096c3e13010a282a539e540dd4e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>GlobalTest</previous_claim_name>
+        <previous_claim_scope>e081ca6193030210994335018bba10ef</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 08:56:08</sys_created_on>
+        <sys_id>3942c6e593030210994335018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:08</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</claim_owner_scope>
+        <claim_timestamp>19058e8c5120000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_92b7f096c3e13010a282a539e540dd4e</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.itsm.roles.incident_management</previous_claim_name>
+        <previous_claim_scope>com.snc.itsm.roles.incident_mana</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 08:56:08</sys_created_on>
+        <sys_id>f942c6e593030210994335018bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:08</sys_updated_on>
+    </sys_claim>
+</record_update>

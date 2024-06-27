@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-10 23:16:13</sys_created_on>
+        <sys_id>843041317db5311076daf29f52070d2f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>incident.itil_admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</sys_scope>
+        <sys_security_acl display_value="incident">403041317db5311076daf29f52070d2f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_843041317db5311076daf29f52070d2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:13</sys_updated_on>
+        <sys_user_role display_value="itil_admin" name="itil_admin">28322f3cc611228500e20459e33eef34</sys_user_role>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GlobalTest">e081ca6193030210994335018bba10ef</claim_owner_scope>
+        <claim_timestamp>19058e8dadb0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_843041317db5311076daf29f52070d2f</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>GlobalTest</previous_claim_name>
+        <previous_claim_scope>e081ca6193030210994335018bba10ef</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 08:56:13</sys_created_on>
+        <sys_id>13424ae593030210994335018bba1003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:13</sys_updated_on>
+    </sys_claim>
+</record_update>
